@@ -4,8 +4,9 @@
 
 *01  查看Git版本*
 ```bash
-Git -v
+git -v
 ```
+
 
 
 
