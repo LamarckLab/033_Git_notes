@@ -40,6 +40,7 @@ git add .
 # 把暂存区的内容传到本地Git仓库
 git commit  # 随后会自动进入vim编辑commit的注释
 git commit -m "lamarck's commit"  # 直接提交
+
 # 查看提交日志
 git log
 ```
@@ -48,6 +49,7 @@ git log
 ```bash
 git push
 ```
+
 
 
 
