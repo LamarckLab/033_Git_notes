@@ -23,11 +23,23 @@ git config --global https.proxy http://127.0.0.1:7897
 git config --global --list
 ```
 
-*03  新建Git仓库*
+*03  Git仓库基础操作*
 ```bash
+# 初始化一个仓库 (在某个文件夹中)
 git init
-```
 
+# 克隆一个远程仓库
+git clone https://github.com/LamarckLab/033_Git_notes.git
+
+# 查看当前仓库的状态
+git status
+
+# 把有更新的所有文件都添加到暂存区
+git add .
+
+# 查看提交日志
+git log
+```
 
 
 
