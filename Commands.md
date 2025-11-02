@@ -9,9 +9,12 @@ git -v
 
 *02  配置用户名称*
 ```bash
-git config --global user.name "LamarckLab"  #配置名称
-git config --global user.name  #查看名称
+# 配置名称
+git config --global user.name "LamarckLab"
+# 查看名称
+git config --global user.name
 ```
+
 
 
 
