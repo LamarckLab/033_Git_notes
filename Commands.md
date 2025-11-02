@@ -34,11 +34,19 @@ git clone https://github.com/LamarckLab/033_Git_notes.git
 # 查看当前仓库的状态
 git status
 
-# 把有更新的所有文件都添加到暂存区
+# 把更新后的文件添加到暂存区
 git add .
+
+# 把暂存区的内容传到本地Git仓库
+git commit
 
 # 查看提交日志
 git log
+```
+
+*04  把本地仓库内容推送到远程仓库*
+```bash
+git push
 ```
 
 
