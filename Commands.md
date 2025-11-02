@@ -20,7 +20,11 @@ git config --global user.email 704021302@qq.com
 
 # 查看邮箱
 git config --global user.email
+
+# 查看全局配置信息
+git config --global --list
 ```
+
 
 
 
