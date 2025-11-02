@@ -50,6 +50,14 @@ git log
 git push
 ```
 
+*05  GreenWall改造*
+```bash
+git remote add origin git@github.com:LamarckLab/0000_LamarckLab_Wall.git
+
+git push -u origin main
+```
+
+
 
 
 
