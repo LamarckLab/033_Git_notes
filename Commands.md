@@ -25,6 +25,10 @@ git config --global user.email
 git config --global --list
 ```
 
+*03  新建Git仓库*
+```bash
+git init
+```
 
 
 
