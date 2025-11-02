@@ -12,14 +12,12 @@ git -v
 # 配置名称
 git config --global user.name LamarckLab
 
-# 查看名称
-git config --global user.name
-
 # 配置邮箱
 git config --global user.email 704021302@qq.com
 
-# 查看邮箱
-git config --global user.email
+# 配置http和https访问时的走的代理端口 (clash默认是7890, clash verge默认是7897)
+git config --global http.proxy http://127.0.0.1:7897
+git config --global https.proxy http://127.0.0.1:7897
 
 # 查看全局配置信息
 git config --global --list
@@ -29,6 +27,7 @@ git config --global --list
 ```bash
 git init
 ```
+
 
 
 
