@@ -7,13 +7,18 @@
 git -v
 ```
 
-*02  配置用户名称*
+*02  配置用户名称&邮箱*
 ```bash
 # 配置名称
-git config --global user.name "LamarckLab"
+git config --global user.name LamarckLab
+
 # 查看名称
 git config --global user.name
+
+# 配置邮箱
+git config --global user.email 704021302@qq.com
 ```
+
 
 
 
